@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'montserrat';
+}
+
+button{
+    background-color: initial;
+    border: none;
+}
+
+body{
+    height: 100vh;
+}
+
+
+/* ---------------NAVBAR----------------- */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: #342e24;
+    height: 8vh;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-img{
+    width: 80px;
+    padding: 20px 50px;
+}
+
+@keyframes slide-from-top {
+    0%{
+        opacity: 0.1;
+        transform: translateY(-40px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    
+}
+.menu{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    padding: 0 70px;
+}
+.start-button{
+    color: #cea942;
+    border: 1px solid;
+    border-color: #8e6e17;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.menu__button{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+
+
+
+}
+
+.menu__button:hover{
+    animation: slide-from-top 0.8s;
+}
+
+
+
+/* --------------------MID-SECTION----------------- */
+.middle-container{
+    background-color: #342e24;
+    display: flex;
+    align-items: center;
+    height: 25vh;
+}
+
+.heading{
+    flex: 1;
+    color: white;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+
+}
+.heading-text{
+    padding: 60px 60px 60px 150px;
+    font-size: 3.4rem;
+    font-weight: 700;
+}
+
+.para{
+    flex:1;
+    color: white;
+}
+
+.para-text{
+    padding: 0 190px 0 190px;
+    font-weight: 300;
+    opacity: 0.6;
+    font-size: 0.8rem;
+}
+
+
+.main{
+    /* height: 300px; */
+}
+.hammer-img{
+    height: 60vh;
+    width: 100%;
+}
+
+/* -----------------------FOOTER------------------------- */
+
+.footer{
+    background-color: #342e24;
+    margin-top: -4px;
+    display: flex;
+    height: 7vh;
+}
+.button-left{
+    margin-left: auto;
+    
+}
+.button-left, .button-right{
+    /* margin-left: auto; */
+    display: flex;
+    align-items: center;
+    background-color: #979137;
+}
+
+.left,.right{
+    color: white;
+    padding: 0 5px;
+    height: 28px;
+    /* font-weight:  */
+    /* background-color: #979137; */
+}
+
+.fa{
+    height: 20px;
+    font-size: 2rem;
+}
